@@ -231,7 +231,7 @@ a:hover {
 .l-bloc h5 a,
 .l-bloc h6 a,
 .l-bloc p a {
-    color: rgba(0, 0, 0, .6);
+    color: rgba(0, 0, 0, 1);
 }
 
 .d-bloc .panel .a-btn:hover,
@@ -651,7 +651,7 @@ label,
 a {
     font-family: "helvetica";
     font-weight: 400;
-    color: #575757!important;
+    color: black;
 }
 
 .container {
@@ -713,7 +713,7 @@ h3 {
     font-size: 15px;
     text-transform: uppercase;
     font-weight: 700;
-    color: #333333!important;
+    color: #222222!important;
 }
 
 .med-width-whitespace {
@@ -825,7 +825,7 @@ h4 {
 }
 
 .bg-presentation {
-    background-image: url("img/image-de-presentation.bmp");
+    background-image: url("img/image-de-presentation.jpg");
 }
 
 @media (max-width: 1024px) {
@@ -1046,4 +1046,39 @@ h4 {
 
 p.text-center{
     font-size: 14px;
+    font-weight: 600;
+}
+
+.text-picture{
+    font-size: 18px;
+    color: #000000;
+}
+
+.on-picture{
+    background-color: #2F2F30;
+    padding: .7em;
+}
+
+.links{
+    color: black;
+    text-align: center;
+}
+
+.links li, .links ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    font-size: 16px;
+}
+
+footer .text-center{
+    padding-bottom: 2em;
+}
+
+nav li{
+    color: black;
+}
+
+label{
+    display: hidden;
 }
