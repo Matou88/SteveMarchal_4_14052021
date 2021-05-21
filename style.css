@@ -723,8 +723,7 @@ h3 {
 }
 
 h1 {
-    color: #333333!important;
-    background-color: #2F2F30;
+    background-color: #232323;
     border-radius: 2em;
     padding: .5em;
 }
@@ -1050,7 +1049,7 @@ p.text-center{
 }
 
 .on-picture{
-    background-color: #2F2F30;
+    background-color: #232323;
     padding: .7em;
 }
 
@@ -1078,3 +1077,19 @@ nav li{
     position: absolute;
     left: -99999rem;
  }
+
+.column{
+    display: flex;
+    flex-flow: column wrap;
+    align-items: center;
+}
+
+.adresse{
+    font-size: 1em;
+    padding-top: 4em;
+    text-align: center;
+}
+
+label{
+    font-size: 1.2em;
+}
