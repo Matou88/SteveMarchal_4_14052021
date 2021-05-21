@@ -1082,3 +1082,8 @@ nav li{
 label{
     display: hidden;
 }
+
+.hors-ecran {
+    position: absolute;
+    left: -99999rem;
+ }
